@@ -1,0 +1,27 @@
+{
+  "name": "@chargerwallet/hd-transport-react-native",
+  "version": "2.0.0",
+  "homepage": "https://github.com/chargerwallet/hd-transport-react-native",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chargerwallet/hd-transport-react-native.git"
+  },
+  "scripts": {
+    "dev": "rimraf dist && rollup -c ../../build/rollup.config.js -w",
+    "build": "rimraf dist && rollup -c ../../build/rollup.config.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "hd-shared": "^2.0.0",
+    "hd-transport": "^2.0.0",
+    "@chargerwallet/react-native-ble-plx": "^3.0.1",
+    "react-native-ble-manager": "^8.1.0"
+  }
+}
