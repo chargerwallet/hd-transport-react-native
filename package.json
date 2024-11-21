@@ -1,0 +1,21 @@
+{
+  "name": "@chargerwallet/hd-transport-react-native",
+  "version": "3.1.3",
+  "homepage": "https://github.com/chargerwallet/hd-transport-react-native",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chargerwallet/hd-transport-react-native.git"
+  },
+  "dependencies": {
+    "@chargerwallet/hd-shared": "4.0.0",
+    "@chargerwallet/hd-transport": "4.0.0",
+    "@chargerwallet/react-native-ble-plx": "3.0.1",
+    "react-native-ble-manager": "11.5.7"
+  }
+}
